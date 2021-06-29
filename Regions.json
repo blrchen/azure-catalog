@@ -56,8 +56,8 @@
     "regionAccess": true
   },
   {
-    "availabilityZoneCount": 0,
-    "availabilityZoneStatus": "Not supported",
+    "availabilityZoneCount": 3,
+    "availabilityZoneStatus": "3 zones",
     "displayName": "Brazil South",
     "geography": "South America",
     "latitude": "-23.55",
@@ -268,6 +268,34 @@
   {
     "availabilityZoneCount": 0,
     "availabilityZoneStatus": "Not supported",
+    "displayName": "Jio India Central",
+    "geography": "Asia Pacific",
+    "latitude": "21.146633",
+    "longitude": "79.08886",
+    "pairedRegion": "Jio India West",
+    "physicalLocation": "Nagpur",
+    "regionalDisplayName": "(Asia Pacific) Jio India Central",
+    "regionName": "jioindiacentral",
+    "storageAccountName": "azsptjioindiacentral",
+    "regionAccess": true
+  },
+  {
+    "availabilityZoneCount": 0,
+    "availabilityZoneStatus": "Not supported",
+    "displayName": "Jio India West",
+    "geography": "Asia Pacific",
+    "latitude": "22.470701",
+    "longitude": "70.05773",
+    "pairedRegion": "Jio India Central",
+    "physicalLocation": "Jamnagar",
+    "regionalDisplayName": "(Asia Pacific) Jio India West",
+    "regionName": "jioindiawest",
+    "storageAccountName": "azsptjioindiawest",
+    "regionAccess": true
+  },
+  {
+    "availabilityZoneCount": 0,
+    "availabilityZoneStatus": "Not supported",
     "displayName": "Korea Central",
     "geography": "Asia Pacific",
     "latitude": "37.5665",
@@ -417,6 +445,34 @@
     "regionalDisplayName": "(Asia Pacific) South India",
     "regionName": "southindia",
     "storageAccountName": "azsptsouthindia",
+    "regionAccess": true
+  },
+  {
+    "availabilityZoneCount": 0,
+    "availabilityZoneStatus": "Not supported",
+    "displayName": "Sweden Central",
+    "geography": "Europe",
+    "latitude": "60.67488",
+    "longitude": "17.14127",
+    "pairedRegion": "Sweden South",
+    "physicalLocation": "Gävle",
+    "regionalDisplayName": "(Europe) Sweden Central",
+    "regionName": "swedencentral",
+    "storageAccountName": "azsptswedencentral",
+    "regionAccess": true
+  },
+  {
+    "availabilityZoneCount": 0,
+    "availabilityZoneStatus": "Not supported",
+    "displayName": "Sweden South",
+    "geography": "Europe",
+    "latitude": "55.6059",
+    "longitude": "13.0007",
+    "pairedRegion": "Sweden Central",
+    "physicalLocation": "Malmo",
+    "regionalDisplayName": "(Europe) Sweden South",
+    "regionName": "swedensouth",
+    "storageAccountName": "azsptswedensouth",
     "regionAccess": true
   },
   {
@@ -574,8 +630,8 @@
     "regionAccess": true
   },
   {
-    "availabilityZoneCount": 0,
-    "availabilityZoneStatus": "Not supported",
+    "availabilityZoneCount": 3,
+    "availabilityZoneStatus": "3 zones",
     "displayName": "West US 3",
     "geography": "US",
     "latitude": "33.448376",
