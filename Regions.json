@@ -11,7 +11,7 @@
     "regionalDisplayName": "(Asia Pacific) Australia Central",
     "regionName": "australiacentral",
     "storageAccountName": "azsptaustraliacentral",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -25,7 +25,7 @@
     "regionalDisplayName": "(Asia Pacific) Australia Central 2",
     "regionName": "australiacentral2",
     "storageAccountName": "azsptaustraliacentral2",
-    "regionAccess": false
+    "restricted": true
   },
   {
     "availabilityZoneCount": 3,
@@ -39,7 +39,7 @@
     "regionalDisplayName": "(Asia Pacific) Australia East",
     "regionName": "australiaeast",
     "storageAccountName": "azsptaustraliaeast",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -53,7 +53,7 @@
     "regionalDisplayName": "(Asia Pacific) Australia Southeast",
     "regionName": "australiasoutheast",
     "storageAccountName": "azsptaustraliasoutheast",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 3,
@@ -67,7 +67,7 @@
     "regionalDisplayName": "(South America) Brazil South",
     "regionName": "brazilsouth",
     "storageAccountName": "azsptbrazilsouth",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -81,7 +81,7 @@
     "regionalDisplayName": "(South America) Brazil Southeast",
     "regionName": "brazilsoutheast",
     "storageAccountName": "azsptbrazilsoutheast",
-    "regionAccess": false
+    "restricted": true
   },
   {
     "availabilityZoneCount": 3,
@@ -95,7 +95,7 @@
     "regionalDisplayName": "(Canada) Canada Central",
     "regionName": "canadacentral",
     "storageAccountName": "azsptcanadacentral",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -109,7 +109,7 @@
     "regionalDisplayName": "(Canada) Canada East",
     "regionName": "canadaeast",
     "storageAccountName": "azsptcanadaeast",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -123,7 +123,7 @@
     "regionalDisplayName": "(Asia Pacific) Central India",
     "regionName": "centralindia",
     "storageAccountName": "azsptcentralindia",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 3,
@@ -137,7 +137,7 @@
     "regionalDisplayName": "(US) Central US",
     "regionName": "centralus",
     "storageAccountName": "azsptcentralus",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -151,7 +151,7 @@
     "regionalDisplayName": "(Asia Pacific) East Asia",
     "regionName": "eastasia",
     "storageAccountName": "azspteastasia",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 3,
@@ -165,7 +165,7 @@
     "regionalDisplayName": "(US) East US",
     "regionName": "eastus",
     "storageAccountName": "azspteastus",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 3,
@@ -179,7 +179,7 @@
     "regionalDisplayName": "(US) East US 2",
     "regionName": "eastus2",
     "storageAccountName": "azspteastus2",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 3,
@@ -193,7 +193,7 @@
     "regionalDisplayName": "(Europe) France Central",
     "regionName": "francecentral",
     "storageAccountName": "azsptfrancecentral",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -207,7 +207,7 @@
     "regionalDisplayName": "(Europe) France South",
     "regionName": "francesouth",
     "storageAccountName": "azsptfrancesouth",
-    "regionAccess": false
+    "restricted": true
   },
   {
     "availabilityZoneCount": 0,
@@ -221,7 +221,7 @@
     "regionalDisplayName": "(Europe) Germany North",
     "regionName": "germanynorth",
     "storageAccountName": "azsptgermanynorth",
-    "regionAccess": true
+    "restricted": true
   },
   {
     "availabilityZoneCount": 3,
@@ -235,7 +235,7 @@
     "regionalDisplayName": "(Europe) Germany West Central",
     "regionName": "germanywestcentral",
     "storageAccountName": "azsptgermanywestcentral",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 3,
@@ -249,7 +249,7 @@
     "regionalDisplayName": "(Asia Pacific) Japan East",
     "regionName": "japaneast",
     "storageAccountName": "azsptjapaneast",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -263,7 +263,7 @@
     "regionalDisplayName": "(Asia Pacific) Japan West",
     "regionName": "japanwest",
     "storageAccountName": "azsptjapanwest",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -277,7 +277,7 @@
     "regionalDisplayName": "(Asia Pacific) Jio India Central",
     "regionName": "jioindiacentral",
     "storageAccountName": "azsptjioindiacentral",
-    "regionAccess": true
+    "restricted": true
   },
   {
     "availabilityZoneCount": 0,
@@ -291,7 +291,7 @@
     "regionalDisplayName": "(Asia Pacific) Jio India West",
     "regionName": "jioindiawest",
     "storageAccountName": "azsptjioindiawest",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -305,7 +305,7 @@
     "regionalDisplayName": "(Asia Pacific) Korea Central",
     "regionName": "koreacentral",
     "storageAccountName": "azsptkoreacentral",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -319,7 +319,7 @@
     "regionalDisplayName": "(Asia Pacific) Korea South",
     "regionName": "koreasouth",
     "storageAccountName": "azsptkoreasouth",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -333,7 +333,7 @@
     "regionalDisplayName": "(US) North Central US",
     "regionName": "northcentralus",
     "storageAccountName": "azsptnorthcentralus",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 3,
@@ -347,7 +347,7 @@
     "regionalDisplayName": "(Europe) North Europe",
     "regionName": "northeurope",
     "storageAccountName": "azsptnortheurope",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -361,7 +361,7 @@
     "regionalDisplayName": "(Europe) Norway East",
     "regionName": "norwayeast",
     "storageAccountName": "azsptnorwayeast",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -375,7 +375,7 @@
     "regionalDisplayName": "(Europe) Norway West",
     "regionName": "norwaywest",
     "storageAccountName": "azsptnorwaywest",
-    "regionAccess": true
+    "restricted": true
   },
   {
     "availabilityZoneCount": 0,
@@ -389,7 +389,7 @@
     "regionalDisplayName": "(Africa) South Africa North",
     "regionName": "southafricanorth",
     "storageAccountName": "azsptsouthafricanorth",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -403,7 +403,7 @@
     "regionalDisplayName": "(Africa) South Africa West",
     "regionName": "southafricawest",
     "storageAccountName": "azsptsouthafricawest",
-    "regionAccess": true
+    "restricted": true
   },
   {
     "availabilityZoneCount": 3,
@@ -417,7 +417,7 @@
     "regionalDisplayName": "(US) South Central US",
     "regionName": "southcentralus",
     "storageAccountName": "azsptsouthcentralus",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 3,
@@ -431,7 +431,7 @@
     "regionalDisplayName": "(Asia Pacific) Southeast Asia",
     "regionName": "southeastasia",
     "storageAccountName": "azsptsoutheastasia",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -445,7 +445,7 @@
     "regionalDisplayName": "(Asia Pacific) South India",
     "regionName": "southindia",
     "storageAccountName": "azsptsouthindia",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -459,7 +459,7 @@
     "regionalDisplayName": "(Europe) Sweden Central",
     "regionName": "swedencentral",
     "storageAccountName": "azsptswedencentral",
-    "regionAccess": true
+    "restricted": true
   },
   {
     "availabilityZoneCount": 0,
@@ -473,7 +473,7 @@
     "regionalDisplayName": "(Europe) Sweden South",
     "regionName": "swedensouth",
     "storageAccountName": "azsptswedensouth",
-    "regionAccess": true
+    "restricted": true
   },
   {
     "availabilityZoneCount": 0,
@@ -487,7 +487,7 @@
     "regionalDisplayName": "(Europe) Switzerland North",
     "regionName": "switzerlandnorth",
     "storageAccountName": "azsptswitzerlandnorth",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -501,7 +501,7 @@
     "regionalDisplayName": "(Europe) Switzerland West",
     "regionName": "switzerlandwest",
     "storageAccountName": "azsptswitzerlandwest",
-    "regionAccess": true
+    "restricted": true
   },
   {
     "availabilityZoneCount": 0,
@@ -515,7 +515,7 @@
     "regionalDisplayName": "(Middle East) UAE Central",
     "regionName": "uaecentral",
     "storageAccountName": "azsptuaecentral",
-    "regionAccess": true
+    "restricted": true
   },
   {
     "availabilityZoneCount": 0,
@@ -529,7 +529,7 @@
     "regionalDisplayName": "(Middle East) UAE North",
     "regionName": "uaenorth",
     "storageAccountName": "azsptuaenorth",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 3,
@@ -543,7 +543,7 @@
     "regionalDisplayName": "(Europe) UK South",
     "regionName": "uksouth",
     "storageAccountName": "azsptuksouth",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -557,7 +557,7 @@
     "regionalDisplayName": "(Europe) UK West",
     "regionName": "ukwest",
     "storageAccountName": "azsptukwest",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -571,7 +571,7 @@
     "regionalDisplayName": "(US) West Central US",
     "regionName": "westcentralus",
     "storageAccountName": "azsptwestcentralus",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 3,
@@ -585,7 +585,7 @@
     "regionalDisplayName": "(Europe) West Europe",
     "regionName": "westeurope",
     "storageAccountName": "azsptwesteurope",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -599,7 +599,7 @@
     "regionalDisplayName": "(Asia Pacific) West India",
     "regionName": "westindia",
     "storageAccountName": "azsptwestindia",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 0,
@@ -613,7 +613,7 @@
     "regionalDisplayName": "(US) West US",
     "regionName": "westus",
     "storageAccountName": "azsptwestus",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 3,
@@ -627,7 +627,7 @@
     "regionalDisplayName": "(US) West US 2",
     "regionName": "westus2",
     "storageAccountName": "azsptwestus2",
-    "regionAccess": true
+    "restricted": false
   },
   {
     "availabilityZoneCount": 3,
@@ -641,6 +641,6 @@
     "regionalDisplayName": "(US) West US 3",
     "regionName": "westus3",
     "storageAccountName": "azsptwestus3",
-    "regionAccess": false
+    "restricted": false
   }
 ]
