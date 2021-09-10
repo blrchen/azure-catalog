@@ -350,8 +350,8 @@
     "restricted": false
   },
   {
-    "availabilityZoneCount": 0,
-    "availabilityZoneStatus": "Not supported",
+    "availabilityZoneCount": 3,
+    "availabilityZoneStatus": "3 zones",
     "displayName": "Norway East",
     "geography": "Europe",
     "latitude": "59.913868",
