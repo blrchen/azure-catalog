@@ -112,8 +112,8 @@
     "restricted": false
   },
   {
-    "availabilityZoneCount": 0,
-    "availabilityZoneStatus": "Not supported",
+    "availabilityZoneCount": 3,
+    "availabilityZoneStatus": "3 zones",
     "displayName": "Central India",
     "geography": "Asia Pacific",
     "latitude": "18.5822",
@@ -140,8 +140,8 @@
     "restricted": false
   },
   {
-    "availabilityZoneCount": 0,
-    "availabilityZoneStatus": "Not supported",
+    "availabilityZoneCount": 3,
+    "availabilityZoneStatus": "3 zones",
     "displayName": "East Asia",
     "geography": "Asia Pacific",
     "latitude": "22.267",
@@ -294,8 +294,8 @@
     "restricted": false
   },
   {
-    "availabilityZoneCount": 0,
-    "availabilityZoneStatus": "Not supported",
+    "availabilityZoneCount": 3,
+    "availabilityZoneStatus": "3 zones",
     "displayName": "Korea Central",
     "geography": "Asia Pacific",
     "latitude": "37.5665",
@@ -319,7 +319,7 @@
     "regionalDisplayName": "(Asia Pacific) Korea South",
     "regionName": "koreasouth",
     "storageAccountName": "azsptkoreasouth",
-    "restricted": false
+    "restricted": true
   },
   {
     "availabilityZoneCount": 0,
@@ -378,8 +378,8 @@
     "restricted": true
   },
   {
-    "availabilityZoneCount": 0,
-    "availabilityZoneStatus": "Not supported",
+    "availabilityZoneCount": 3,
+    "availabilityZoneStatus": "3 zones",
     "displayName": "South Africa North",
     "geography": "Africa",
     "latitude": "-25.731340",
@@ -448,31 +448,17 @@
     "restricted": false
   },
   {
-    "availabilityZoneCount": 0,
-    "availabilityZoneStatus": "Not supported",
+    "availabilityZoneCount": 3,
+    "availabilityZoneStatus": "3 zones",
     "displayName": "Sweden Central",
     "geography": "Europe",
     "latitude": "60.67488",
     "longitude": "17.14127",
-    "pairedRegion": "Sweden South",
+    "pairedRegion": null,
     "physicalLocation": "Gävle",
     "regionalDisplayName": "(Europe) Sweden Central",
     "regionName": "swedencentral",
     "storageAccountName": "azsptswedencentral",
-    "restricted": true
-  },
-  {
-    "availabilityZoneCount": 0,
-    "availabilityZoneStatus": "Not supported",
-    "displayName": "Sweden South",
-    "geography": "Europe",
-    "latitude": "55.6059",
-    "longitude": "13.0007",
-    "pairedRegion": "Sweden Central",
-    "physicalLocation": "Malmo",
-    "regionalDisplayName": "(Europe) Sweden South",
-    "regionName": "swedensouth",
-    "storageAccountName": "azsptswedensouth",
     "restricted": true
   },
   {
