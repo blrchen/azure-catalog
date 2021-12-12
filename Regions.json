@@ -10,7 +10,6 @@
     "physicalLocation": "Canberra",
     "regionalDisplayName": "(Asia Pacific) Australia Central",
     "regionName": "australiacentral",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -25,7 +24,6 @@
     "physicalLocation": "Canberra",
     "regionalDisplayName": "(Asia Pacific) Australia Central 2",
     "regionName": "australiacentral2",
-    "storageAccountName": null,
     "restricted": true,
     "accessEnabled": false
   },
@@ -40,7 +38,6 @@
     "physicalLocation": "New South Wales",
     "regionalDisplayName": "(Asia Pacific) Australia East",
     "regionName": "australiaeast",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -55,7 +52,6 @@
     "physicalLocation": "Victoria",
     "regionalDisplayName": "(Asia Pacific) Australia Southeast",
     "regionName": "australiasoutheast",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -70,7 +66,6 @@
     "physicalLocation": "Sao Paulo State",
     "regionalDisplayName": "(South America) Brazil South",
     "regionName": "brazilsouth",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -85,7 +80,6 @@
     "physicalLocation": "Rio",
     "regionalDisplayName": "(South America) Brazil Southeast",
     "regionName": "brazilsoutheast",
-    "storageAccountName": null,
     "restricted": true,
     "accessEnabled": true
   },
@@ -100,7 +94,6 @@
     "physicalLocation": "Toronto",
     "regionalDisplayName": "(Canada) Canada Central",
     "regionName": "canadacentral",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -115,7 +108,6 @@
     "physicalLocation": "Quebec",
     "regionalDisplayName": "(Canada) Canada East",
     "regionName": "canadaeast",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -130,7 +122,6 @@
     "physicalLocation": "Pune",
     "regionalDisplayName": "(Asia Pacific) Central India",
     "regionName": "centralindia",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -145,7 +136,6 @@
     "physicalLocation": "Iowa",
     "regionalDisplayName": "(US) Central US",
     "regionName": "centralus",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -160,7 +150,6 @@
     "physicalLocation": "Hong Kong",
     "regionalDisplayName": "(Asia Pacific) East Asia",
     "regionName": "eastasia",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -175,7 +164,6 @@
     "physicalLocation": "Virginia",
     "regionalDisplayName": "(US) East US",
     "regionName": "eastus",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -190,7 +178,6 @@
     "physicalLocation": "Virginia",
     "regionalDisplayName": "(US) East US 2",
     "regionName": "eastus2",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -205,7 +192,6 @@
     "physicalLocation": "Paris",
     "regionalDisplayName": "(Europe) France Central",
     "regionName": "francecentral",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -220,7 +206,6 @@
     "physicalLocation": "Marseille",
     "regionalDisplayName": "(Europe) France South",
     "regionName": "francesouth",
-    "storageAccountName": null,
     "restricted": true,
     "accessEnabled": false
   },
@@ -235,7 +220,6 @@
     "physicalLocation": "Berlin",
     "regionalDisplayName": "(Europe) Germany North",
     "regionName": "germanynorth",
-    "storageAccountName": null,
     "restricted": true,
     "accessEnabled": false
   },
@@ -250,7 +234,6 @@
     "physicalLocation": "Frankfurt",
     "regionalDisplayName": "(Europe) Germany West Central",
     "regionName": "germanywestcentral",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -265,7 +248,6 @@
     "physicalLocation": "Tokyo, Saitama",
     "regionalDisplayName": "(Asia Pacific) Japan East",
     "regionName": "japaneast",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -280,7 +262,6 @@
     "physicalLocation": "Osaka",
     "regionalDisplayName": "(Asia Pacific) Japan West",
     "regionName": "japanwest",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -295,7 +276,6 @@
     "physicalLocation": "Nagpur",
     "regionalDisplayName": "(Asia Pacific) Jio India Central",
     "regionName": "jioindiacentral",
-    "storageAccountName": null,
     "restricted": true,
     "accessEnabled": false
   },
@@ -310,7 +290,6 @@
     "physicalLocation": "Jamnagar",
     "regionalDisplayName": "(Asia Pacific) Jio India West",
     "regionName": "jioindiawest",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -325,7 +304,6 @@
     "physicalLocation": "Seoul",
     "regionalDisplayName": "(Asia Pacific) Korea Central",
     "regionName": "koreacentral",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -340,7 +318,6 @@
     "physicalLocation": "Busan",
     "regionalDisplayName": "(Asia Pacific) Korea South",
     "regionName": "koreasouth",
-    "storageAccountName": null,
     "restricted": true,
     "accessEnabled": true
   },
@@ -355,7 +332,6 @@
     "physicalLocation": "Illinois",
     "regionalDisplayName": "(US) North Central US",
     "regionName": "northcentralus",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -370,7 +346,6 @@
     "physicalLocation": "Ireland",
     "regionalDisplayName": "(Europe) North Europe",
     "regionName": "northeurope",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -385,7 +360,6 @@
     "physicalLocation": "Norway",
     "regionalDisplayName": "(Europe) Norway East",
     "regionName": "norwayeast",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -400,7 +374,6 @@
     "physicalLocation": "Norway",
     "regionalDisplayName": "(Europe) Norway West",
     "regionName": "norwaywest",
-    "storageAccountName": null,
     "restricted": true,
     "accessEnabled": false
   },
@@ -415,7 +388,6 @@
     "physicalLocation": "Johannesburg",
     "regionalDisplayName": "(Africa) South Africa North",
     "regionName": "southafricanorth",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -430,7 +402,6 @@
     "physicalLocation": "Cape Town",
     "regionalDisplayName": "(Africa) South Africa West",
     "regionName": "southafricawest",
-    "storageAccountName": null,
     "restricted": true,
     "accessEnabled": false
   },
@@ -445,7 +416,6 @@
     "physicalLocation": "Texas",
     "regionalDisplayName": "(US) South Central US",
     "regionName": "southcentralus",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -460,7 +430,6 @@
     "physicalLocation": "Singapore",
     "regionalDisplayName": "(Asia Pacific) Southeast Asia",
     "regionName": "southeastasia",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -475,7 +444,6 @@
     "physicalLocation": "Chennai",
     "regionalDisplayName": "(Asia Pacific) South India",
     "regionName": "southindia",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -490,7 +458,6 @@
     "physicalLocation": "Gävle",
     "regionalDisplayName": "(Europe) Sweden Central",
     "regionName": "swedencentral",
-    "storageAccountName": null,
     "restricted": true,
     "accessEnabled": false
   },
@@ -505,7 +472,6 @@
     "physicalLocation": "Zurich",
     "regionalDisplayName": "(Europe) Switzerland North",
     "regionName": "switzerlandnorth",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -520,7 +486,6 @@
     "physicalLocation": "Geneva",
     "regionalDisplayName": "(Europe) Switzerland West",
     "regionName": "switzerlandwest",
-    "storageAccountName": null,
     "restricted": true,
     "accessEnabled": false
   },
@@ -535,7 +500,6 @@
     "physicalLocation": "Abu Dhabi",
     "regionalDisplayName": "(Middle East) UAE Central",
     "regionName": "uaecentral",
-    "storageAccountName": null,
     "restricted": true,
     "accessEnabled": false
   },
@@ -550,7 +514,6 @@
     "physicalLocation": "Dubai",
     "regionalDisplayName": "(Middle East) UAE North",
     "regionName": "uaenorth",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -565,7 +528,6 @@
     "physicalLocation": "London",
     "regionalDisplayName": "(Europe) UK South",
     "regionName": "uksouth",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -580,7 +542,6 @@
     "physicalLocation": "Cardiff",
     "regionalDisplayName": "(Europe) UK West",
     "regionName": "ukwest",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -595,7 +556,6 @@
     "physicalLocation": "Wyoming",
     "regionalDisplayName": "(US) West Central US",
     "regionName": "westcentralus",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -610,7 +570,6 @@
     "physicalLocation": "Netherlands",
     "regionalDisplayName": "(Europe) West Europe",
     "regionName": "westeurope",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -625,7 +584,6 @@
     "physicalLocation": "Mumbai",
     "regionalDisplayName": "(Asia Pacific) West India",
     "regionName": "westindia",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -640,7 +598,6 @@
     "physicalLocation": "California",
     "regionalDisplayName": "(US) West US",
     "regionName": "westus",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -655,7 +612,6 @@
     "physicalLocation": "Washington",
     "regionalDisplayName": "(US) West US 2",
     "regionName": "westus2",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   },
@@ -670,7 +626,6 @@
     "physicalLocation": "Phoenix",
     "regionalDisplayName": "(US) West US 3",
     "regionName": "westus3",
-    "storageAccountName": null,
     "restricted": false,
     "accessEnabled": true
   }

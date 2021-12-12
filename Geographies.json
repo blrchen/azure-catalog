@@ -380,28 +380,6 @@
             }
           ]
         }
-      },
-      {
-        "Id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/eastusslv",
-        "SubscriptionId": null,
-        "Name": "eastusslv",
-        "DisplayName": "East US SLV",
-        "RegionalDisplayName": "(South America) East US SLV",
-        "Metadata": {
-          "RegionType": {},
-          "RegionCategory": {},
-          "GeographyGroup": "South America",
-          "Longitude": "-43.2075",
-          "Latitude": "-22.90278",
-          "PhysicalLocation": "Silverstone",
-          "PairedRegion": [
-            {
-              "Name": "eastusslv",
-              "Id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/eastusslv",
-              "SubscriptionId": null
-            }
-          ]
-        }
       }
     ]
   },
@@ -859,28 +837,6 @@
         }
       },
       {
-        "Id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/qatarcentral",
-        "SubscriptionId": null,
-        "Name": "qatarcentral",
-        "DisplayName": "Qatar Central",
-        "RegionalDisplayName": "(Europe) Qatar Central",
-        "Metadata": {
-          "RegionType": {},
-          "RegionCategory": {},
-          "GeographyGroup": "Europe",
-          "Longitude": "51.439327",
-          "Latitude": "25.551462",
-          "PhysicalLocation": "Doha",
-          "PairedRegion": [
-            {
-              "Name": "westeurope",
-              "Id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/westeurope",
-              "SubscriptionId": null
-            }
-          ]
-        }
-      },
-      {
         "Id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/swedencentral",
         "SubscriptionId": null,
         "Name": "swedencentral",
@@ -897,28 +853,6 @@
             {
               "Name": "swedensouth",
               "Id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/swedensouth",
-              "SubscriptionId": null
-            }
-          ]
-        }
-      },
-      {
-        "Id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/swedensouth",
-        "SubscriptionId": null,
-        "Name": "swedensouth",
-        "DisplayName": "Sweden South",
-        "RegionalDisplayName": "(Europe) Sweden South",
-        "Metadata": {
-          "RegionType": {},
-          "RegionCategory": {},
-          "GeographyGroup": "Europe",
-          "Longitude": "13.0007",
-          "Latitude": "55.6059",
-          "PhysicalLocation": "Malmo",
-          "PairedRegion": [
-            {
-              "Name": "swedencentral",
-              "Id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/swedencentral",
               "SubscriptionId": null
             }
           ]
