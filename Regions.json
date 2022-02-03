@@ -269,8 +269,8 @@
     "regionalDisplayName": "(Asia Pacific) Jio India West",
     "regionName": "jioindiawest",
     "availabilityZoneCount": 0,
-    "restricted": false,
-    "accessEnabled": true
+    "restricted": true,
+    "accessEnabled": false
   },
   {
     "displayName": "Korea Central",
@@ -421,12 +421,12 @@
     "latitude": "60.67488",
     "longitude": "17.14127",
     "pairedRegion": null,
-    "physicalLocation": "Gävle",
+    "physicalLocation": "GÃ¤vle",
     "regionalDisplayName": "(Europe) Sweden Central",
     "regionName": "swedencentral",
     "availabilityZoneCount": 3,
-    "restricted": true,
-    "accessEnabled": false
+    "restricted": false,
+    "accessEnabled": true
   },
   {
     "displayName": "Switzerland North",
