@@ -295,7 +295,7 @@
     "regionalDisplayName": "(Asia Pacific) Korea South",
     "regionName": "koreasouth",
     "availabilityZoneCount": 0,
-    "restricted": true,
+    "restricted": false,
     "accessEnabled": true
   },
   {
