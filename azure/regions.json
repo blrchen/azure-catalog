@@ -437,7 +437,7 @@
     "physicalLocation": "Zurich",
     "regionalDisplayName": "(Europe) Switzerland North",
     "regionName": "switzerlandnorth",
-    "availabilityZoneCount": 0,
+    "availabilityZoneCount": 3,
     "restricted": false,
     "accessEnabled": true
   },
