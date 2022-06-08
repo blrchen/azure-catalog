@@ -1,7 +1,7 @@
 [
   {
-    "Geography": "Africa",
-    "Regions": [
+    "geography": "Africa",
+    "regions": [
       {
         "displayName": "Cape Town",
         "geography": "Africa",
@@ -18,8 +18,8 @@
     ]
   },
   {
-    "Geography": "Asia Pacific",
-    "Regions": [
+    "geography": "Asia Pacific",
+    "regions": [
       {
         "displayName": "Hong Kong",
         "geography": "Asia Pacific",
@@ -127,8 +127,8 @@
     ]
   },
   {
-    "Geography": "Canada",
-    "Regions": [
+    "geography": "Canada",
+    "regions": [
       {
         "displayName": "Central",
         "geography": "Canada",
@@ -145,8 +145,8 @@
     ]
   },
   {
-    "Geography": "Europe",
-    "Regions": [
+    "geography": "Europe",
+    "regions": [
       {
         "displayName": "Frankfurt",
         "geography": "Europe",
@@ -228,8 +228,8 @@
     ]
   },
   {
-    "Geography": "Middle East",
-    "Regions": [
+    "geography": "Middle East",
+    "regions": [
       {
         "displayName": "Bahrain",
         "geography": "Middle East",
@@ -246,8 +246,8 @@
     ]
   },
   {
-    "Geography": "South America",
-    "Regions": [
+    "geography": "South America",
+    "regions": [
       {
         "displayName": "Sao Paulo",
         "geography": "South America",
@@ -264,8 +264,8 @@
     ]
   },
   {
-    "Geography": "US East",
-    "Regions": [
+    "geography": "US East",
+    "regions": [
       {
         "displayName": "N. Virginia",
         "geography": "US East",
@@ -295,8 +295,8 @@
     ]
   },
   {
-    "Geography": "US West",
-    "Regions": [
+    "geography": "US West",
+    "regions": [
       {
         "displayName": "N. California",
         "geography": "US West",
