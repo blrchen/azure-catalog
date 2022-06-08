@@ -1,6 +1,6 @@
 import React from 'react';
-import { AWS_REGIONS_FILE } from "../../common/constants";
-import Regions from "../../components/regions";
+import { AWS_REGIONS_FILE } from '../../common/constants';
+import Regions from '../../components/regions';
 
 const AwsRegions: React.FC = () => {
   return (

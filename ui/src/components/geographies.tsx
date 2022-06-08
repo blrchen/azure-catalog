@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Card, List } from 'antd';
-import axios from "axios";
-import { AWS_GEOGRAPHIES_FILE, AZURE_GEOGRAPHIES_FILE } from "../common/constants";
+import axios from 'axios';
+import { AWS_GEOGRAPHIES_FILE, AZURE_GEOGRAPHIES_FILE } from '../common/constants';
 
 type Props = {
   title: string;
@@ -18,7 +18,7 @@ const Geographies: React.FC<Props> = ({ title, filename }) => {
         for (const d of response.data) {
           const regions = [];
           for (const r of d.regions) {
-            let regionName: string = '';
+            let regionName = '';
             if (filename === AZURE_GEOGRAPHIES_FILE) {
               regionName = `${ r.displayName }`;
             } else if (filename === AWS_GEOGRAPHIES_FILE) {
@@ -27,7 +27,7 @@ const Geographies: React.FC<Props> = ({ title, filename }) => {
 
             regions.push(regionName);
           }
-          list.push({ title: d.geography, description: regions.join(", ") })
+          list.push({ title: d.geography, description: regions.join(', ') })
         }
         setDataSource(list);
       })

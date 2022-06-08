@@ -1,50 +1,52 @@
 import { Layout, Menu } from 'antd';
 import { CloudOutlined, InfoCircleOutlined } from '@ant-design/icons';
 import { useNavigate } from 'react-router-dom';
-import SubMenu from "antd/es/menu/SubMenu";
+import SubMenu from 'antd/es/menu/SubMenu';
 
 const { Sider } = Layout;
 const SideMenu = () => {
   const navigate = useNavigate();
   const menuConfigs = [
     {
-      name: "Azure",
+      name: 'Azure',
       icon: <CloudOutlined />,
-      route: "/azure",
+      route: '/azure',
       child: [
         {
-          name: "Geographies",
-          route: "/geographies",
+          name: 'Geographies',
+          route: '/geographies',
         },
         {
-          name: "Regions",
-          route: "/regions",
+          name: 'Regions',
+          route: '/regions',
         },
       ],
     },
     {
-      name: "AWS",
+      name: 'AWS',
       icon: <CloudOutlined />,
-      route: "/aws",
+      route: '/aws',
       child: [
         {
-          name: "Geographies",
-          route: "/geographies",
+          name: 'Geographies',
+          route: '/geographies',
         },
         {
-          name: "Regions",
-          route: "/regions",
+          name: 'Regions',
+          route: '/regions',
         },
       ],
     },
     {
-      name: "About",
+      name: 'About',
       icon: <InfoCircleOutlined />,
-      route: "/about",
+      route: '/about',
     },
   ];
 
-  const getMenuItems = (list: any, path = "") => {
+  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
+  const getMenuItems = (list: any, path = '') => {
+    // eslint-disable-next-line  @typescript-eslint/no-explicit-any
     return list.map((menu: any) => {
       if (menu.child && menu.child.length) {
         return (

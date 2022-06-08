@@ -10,11 +10,22 @@
     "plugin:@typescript-eslint/recommended"
   ],
   "parserOptions": {
-    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
     "sourceType": "module"
   },
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
   "rules": {
-    "linebreak-style": 0
+    "react/react-in-jsx-scope": "off",
+    "quotes": [
+      "error",
+      "single"
+    ]
   },
   "overrides": [
     {

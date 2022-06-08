@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Table } from 'antd';
-import axios from "axios";
+import axios from 'axios';
 
 type Props = {
   title: string;
