@@ -13,6 +13,10 @@ const SideMenu = () => {
       route: "/azure",
       child: [
         {
+          name: "Geographies",
+          route: "/geographies",
+        },
+        {
           name: "Regions",
           route: "/regions",
         },
@@ -23,6 +27,10 @@ const SideMenu = () => {
       icon: <CloudOutlined />,
       route: "/aws",
       child: [
+        {
+          name: "Geographies",
+          route: "/geographies",
+        },
         {
           name: "Regions",
           route: "/regions",
@@ -50,7 +58,6 @@ const SideMenu = () => {
           key={ path + menu.route }
           icon={ menu.icon }
           onClick={ () => {
-            console.log(path + menu.route);
             navigate(path + menu.route);
           } }
         >

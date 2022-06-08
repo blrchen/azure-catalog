@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import { Layout } from "antd";
-import SideMenu from "./components/sidemenu/siteMenu";
+import SideMenu from "./components/siteMenu";
 import { Content, Footer, Header } from "antd/es/layout/layout";
-import { getRoutes, routes } from "./components/sidemenu/routers";
+import { getRoutes, routes } from "./components/routers";
 
 const App: React.FC = () => {
   return (

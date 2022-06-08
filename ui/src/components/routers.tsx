@@ -1,16 +1,23 @@
 import { Route, Routes } from "react-router-dom";
 import React from "react";
-import AzureRegions from "../../pages/azure/regions";
-import AwsRegions from "../../pages/aws/regions";
-import About from "../../pages/about";
-
-export const AZURE_REGIONS_FILE = '/data/azure/regions.json';
-export const AWS_REGIONS_FILE = '/data/aws/regions.json';
+import AzureGeographies from "../pages/azure/geographies";
+import AzureRegions from "../pages/azure/regions";
+import AwsGeographies from "../pages/aws/geographies";
+import AwsRegions from "../pages/aws/regions";
+import About from "../pages/about";
 
 export const routes = [
   {
+    path: "/azure/geographies",
+    Component: AzureGeographies,
+  },
+  {
     path: "/azure/regions",
     Component: AzureRegions,
+  },
+  {
+    path: "/aws/geographies",
+    Component: AwsGeographies,
   },
   {
     path: "/aws/regions",
