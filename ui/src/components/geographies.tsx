@@ -39,7 +39,7 @@ const Geographies: React.FC<Props> = ({ title, filename }) => {
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+  }, [filename]);
 
   return (
     <Card title={title}>
