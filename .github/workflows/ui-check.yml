@@ -1,4 +1,4 @@
-name: Feathr UI Lint and Format Checks
+name: UI Lint and Format Checks
 
 on:
   push:
@@ -24,9 +24,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: reviewdog/action-eslint@v1
         with:
-          eslint_flags: "src/"
           reporter: github-pr-review
-          workdir: ui
+          workdir: src/ui
           fail_on_error: true
 
   prettier:
