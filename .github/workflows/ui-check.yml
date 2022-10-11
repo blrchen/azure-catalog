@@ -27,6 +27,7 @@ jobs:
           eslint_flags: "src/"
           workdir: ui
           fail_on_error: true
+          level: warning
 
   prettier:
     name: prettier_code_formatter
