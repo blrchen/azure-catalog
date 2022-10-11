@@ -1,69 +1,69 @@
-import { Layout, Menu } from 'antd';
-import { CloudOutlined, InfoCircleOutlined } from '@ant-design/icons';
-import { useNavigate } from 'react-router-dom';
-import SubMenu from 'antd/es/menu/SubMenu';
+import { Layout, Menu } from "antd";
+import { CloudOutlined, InfoCircleOutlined } from "@ant-design/icons";
+import { useNavigate } from "react-router-dom";
+import SubMenu from "antd/es/menu/SubMenu";
 
 const { Sider } = Layout;
 const SideMenu = () => {
   const navigate = useNavigate();
   const menuConfigs = [
     {
-      name: 'Azure',
+      name: "Azure",
       icon: <CloudOutlined />,
-      route: '/azure',
+      route: "/azure",
       child: [
         {
-          name: 'Geographies',
-          route: '/geographies',
+          name: "Geographies",
+          route: "/geographies",
         },
         {
-          name: 'Regions',
-          route: '/regions',
+          name: "Regions",
+          route: "/regions",
         },
       ],
     },
     {
-      name: 'AWS',
+      name: "AWS",
       icon: <CloudOutlined />,
-      route: '/aws',
+      route: "/aws",
       child: [
         {
-          name: 'Geographies',
-          route: '/geographies',
+          name: "Geographies",
+          route: "/geographies",
         },
         {
-          name: 'Regions',
-          route: '/regions',
+          name: "Regions",
+          route: "/regions",
         },
       ],
     },
     {
-      name: 'About',
+      name: "About",
       icon: <InfoCircleOutlined />,
-      route: '/about',
+      route: "/about",
     },
   ];
 
   // eslint-disable-next-line  @typescript-eslint/no-explicit-any
-  const getMenuItems = (list: any, path = '') => {
+  const getMenuItems = (list: any, path = "") => {
     // eslint-disable-next-line  @typescript-eslint/no-explicit-any
     return list.map((menu: any) => {
       if (menu.child && menu.child.length) {
         return (
-          <SubMenu icon={ menu.icon } key={ path + menu.route } title={ menu.name }>
-            { getMenuItems(menu.child, path + menu.route) }
+          <SubMenu icon={menu.icon} key={path + menu.route} title={menu.name}>
+            {getMenuItems(menu.child, path + menu.route)}
           </SubMenu>
         );
       }
       return (
         <Menu.Item
-          key={ path + menu.route }
-          icon={ menu.icon }
-          onClick={ () => {
+          key={path + menu.route}
+          icon={menu.icon}
+          onClick={() => {
             navigate(path + menu.route);
-          } }
+          }}
         >
-          { menu.name }
+          {menu.name}
         </Menu.Item>
       );
     });
@@ -71,16 +71,23 @@ const SideMenu = () => {
 
   return (
     <Sider>
-      <div style={ { fontSize: 'medium', color: 'white', margin: '10px', paddingLeft: '15px' } }>
+      <div
+        style={{
+          fontSize: "medium",
+          color: "white",
+          margin: "10px",
+          paddingLeft: "15px",
+        }}
+      >
         Cloud Infrastructure
       </div>
       <Menu
         theme="dark"
         mode="inline"
-        defaultSelectedKeys={ ['/'] }
-        defaultOpenKeys={ ['/'] }
+        defaultSelectedKeys={["/"]}
+        defaultOpenKeys={["/"]}
       >
-        { getMenuItems(menuConfigs) }
+        {getMenuItems(menuConfigs)}
       </Menu>
     </Sider>
   );
