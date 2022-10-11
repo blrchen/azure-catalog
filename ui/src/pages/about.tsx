@@ -11,7 +11,11 @@ const About: React.FC = () => {
       <p>If you find any bugs or have a feature request, please create an issue
         <a target="_blank" rel="noreferrer" href="https://github.com/blrchen/cloud-infrastructure/issues"> here
         </a>
+
+
       </p>
+
+
     </Card>
   );
 };
