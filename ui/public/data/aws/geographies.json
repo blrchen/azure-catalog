@@ -242,6 +242,19 @@
         "availabilityZoneCount": 3,
         "restricted": false,
         "accessEnabled": true
+      },
+      {
+        "displayName": "UAE",
+        "geography": "Middle East",
+        "latitude": null,
+        "longitude": null,
+        "pairedRegion": null,
+        "physicalLocation": null,
+        "regionalDisplayName": null,
+        "regionName": "me-central-1",
+        "availabilityZoneCount": 3,
+        "restricted": false,
+        "accessEnabled": true
       }
     ]
   },
