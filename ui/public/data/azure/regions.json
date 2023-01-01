@@ -169,6 +169,19 @@
     "accessEnabled": true
   },
   {
+    "displayName": "East US STG",
+    "geography": "US",
+    "latitude": "37.3719",
+    "longitude": "-79.8164",
+    "pairedRegion": null,
+    "physicalLocation": "Virginia",
+    "regionalDisplayName": "(US) East US STG",
+    "regionName": "eastusstg",
+    "availabilityZoneCount": 0,
+    "restricted": false,
+    "accessEnabled": true
+  },
+  {
     "displayName": "France Central",
     "geography": "Europe",
     "latitude": "46.3772",
@@ -351,6 +364,19 @@
     "accessEnabled": false
   },
   {
+    "displayName": "Qatar Central",
+    "geography": "Middle East",
+    "latitude": "25.551462",
+    "longitude": "51.439327",
+    "pairedRegion": "West Europe",
+    "physicalLocation": "Doha",
+    "regionalDisplayName": "(Middle East) Qatar Central",
+    "regionName": "qatarcentral",
+    "availabilityZoneCount": 3,
+    "restricted": false,
+    "accessEnabled": true
+  },
+  {
     "displayName": "South Africa North",
     "geography": "Africa",
     "latitude": "-25.731340",
@@ -476,7 +502,7 @@
     "physicalLocation": "Dubai",
     "regionalDisplayName": "(Middle East) UAE North",
     "regionName": "uaenorth",
-    "availabilityZoneCount": 0,
+    "availabilityZoneCount": 3,
     "restricted": false,
     "accessEnabled": true
   },
