@@ -16,10 +16,6 @@ export interface AppLayoutProps {
 const { Content } = Layout
 
 const AppLayout = (props: AppLayoutProps) => {
-  const onGlobalSearch = (_value: string) => {
-    //
-  }
-
   return (
     <Layout hasSider className={styles.layout}>
       <SiderMenu />
