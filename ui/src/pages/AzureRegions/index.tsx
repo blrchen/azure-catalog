@@ -9,7 +9,7 @@ import { AZURE_REGIONS_FILE } from '@/pages/constants'
 const AwsRegions = () => (
   <PagePanel title="Azure Regions">
     <Card bordered={false}>
-      <Regions filename={AZURE_REGIONS_FILE} />;
+      <Regions filename={AZURE_REGIONS_FILE} />
     </Card>
   </PagePanel>
 )

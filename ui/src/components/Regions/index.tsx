@@ -37,7 +37,6 @@ const Regions = (props: RegionsProps) => {
     axios
       .get(filename)
       .then((response) => {
-        console.log('0102=======', response.data)
         setDataSource(response.data)
       })
       .catch((error) => {

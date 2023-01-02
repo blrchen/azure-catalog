@@ -9,7 +9,7 @@ import { AWS_REGIONS_FILE } from '@/pages/constants'
 const AwsRegions = () => (
   <PagePanel title="AWS Regions">
     <Card bordered={false}>
-      <Regions filename={AWS_REGIONS_FILE} />;
+      <Regions filename={AWS_REGIONS_FILE} />
     </Card>
   </PagePanel>
 )

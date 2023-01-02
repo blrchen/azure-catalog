@@ -4,7 +4,7 @@ In this repo you can find the latest Azure/AWS infrastructure information.
 
 ## Live Demo
 
-https://ashy-pebble-0fcf2e71e.1.azurestaticapps.net
+<https://ashy-pebble-0fcf2e71e.1.azurestaticapps.net>
 
 ## Catalog Data
 
