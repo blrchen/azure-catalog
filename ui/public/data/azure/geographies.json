@@ -304,6 +304,19 @@
         "accessEnabled": true
       },
       {
+        "displayName": "East US STG",
+        "geography": "US",
+        "latitude": "37.3719",
+        "longitude": "-79.8164",
+        "pairedRegion": null,
+        "physicalLocation": "Virginia",
+        "regionalDisplayName": "(US) East US STG",
+        "regionName": "eastusstg",
+        "availabilityZoneCount": 0,
+        "restricted": false,
+        "accessEnabled": true
+      },
+      {
         "displayName": "North Central US",
         "geography": "US",
         "latitude": "41.8819",
@@ -558,6 +571,50 @@
     ]
   },
   {
+    "geography": "Middle East",
+    "regions": [
+      {
+        "displayName": "Qatar Central",
+        "geography": "Middle East",
+        "latitude": "25.551462",
+        "longitude": "51.439327",
+        "pairedRegion": "West Europe",
+        "physicalLocation": "Doha",
+        "regionalDisplayName": "(Middle East) Qatar Central",
+        "regionName": "qatarcentral",
+        "availabilityZoneCount": 3,
+        "restricted": false,
+        "accessEnabled": true
+      },
+      {
+        "displayName": "UAE Central",
+        "geography": "Middle East",
+        "latitude": "24.466667",
+        "longitude": "54.366669",
+        "pairedRegion": "UAE North",
+        "physicalLocation": "Abu Dhabi",
+        "regionalDisplayName": "(Middle East) UAE Central",
+        "regionName": "uaecentral",
+        "availabilityZoneCount": 0,
+        "restricted": true,
+        "accessEnabled": false
+      },
+      {
+        "displayName": "UAE North",
+        "geography": "Middle East",
+        "latitude": "25.266666",
+        "longitude": "55.316666",
+        "pairedRegion": "UAE Central",
+        "physicalLocation": "Dubai",
+        "regionalDisplayName": "(Middle East) UAE North",
+        "regionName": "uaenorth",
+        "availabilityZoneCount": 3,
+        "restricted": false,
+        "accessEnabled": true
+      }
+    ]
+  },
+  {
     "geography": "Africa",
     "regions": [
       {
@@ -585,37 +642,6 @@
         "availabilityZoneCount": 0,
         "restricted": true,
         "accessEnabled": false
-      }
-    ]
-  },
-  {
-    "geography": "Middle East",
-    "regions": [
-      {
-        "displayName": "UAE Central",
-        "geography": "Middle East",
-        "latitude": "24.466667",
-        "longitude": "54.366669",
-        "pairedRegion": "UAE North",
-        "physicalLocation": "Abu Dhabi",
-        "regionalDisplayName": "(Middle East) UAE Central",
-        "regionName": "uaecentral",
-        "availabilityZoneCount": 0,
-        "restricted": true,
-        "accessEnabled": false
-      },
-      {
-        "displayName": "UAE North",
-        "geography": "Middle East",
-        "latitude": "25.266666",
-        "longitude": "55.316666",
-        "pairedRegion": "UAE Central",
-        "physicalLocation": "Dubai",
-        "regionalDisplayName": "(Middle East) UAE North",
-        "regionName": "uaenorth",
-        "availabilityZoneCount": 0,
-        "restricted": false,
-        "accessEnabled": true
       }
     ]
   }
