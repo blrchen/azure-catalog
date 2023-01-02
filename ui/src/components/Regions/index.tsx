@@ -3,10 +3,12 @@ import React, { useEffect, useState } from 'react'
 import { Table } from 'antd'
 import axios from 'axios'
 
-type Props = {
+interface RegionsProps {
   filename: string
 }
-const Regions: React.FC<Props> = ({ filename }) => {
+
+const Regions = (props: RegionsProps) => {
+  const { filename } = props
   const [dataSource, setDataSource] = useState([])
   const columns = [
     {

@@ -6,7 +6,6 @@ import { Outlet } from 'react-router-dom'
 import FooterBar from '@/components/FooterBar'
 import HeaderBar from '@/components/HeaderBar'
 import SiderMenu from '@/components/SiderMenu'
-import GlobalContext from '@/contexts/globalContext'
 
 import styles from './index.module.less'
 
@@ -22,22 +21,16 @@ const AppLayout = (props: AppLayoutProps) => {
   }
 
   return (
-    <GlobalContext.Provider
-      value={{
-        onSearch: onGlobalSearch
-      }}
-    >
-      <Layout hasSider className={styles.layout}>
-        <SiderMenu />
-        <Layout>
-          <HeaderBar />
-          <Content className={styles.main}>
-            <Outlet />
-          </Content>
-          <FooterBar />
-        </Layout>
+    <Layout hasSider className={styles.layout}>
+      <SiderMenu />
+      <Layout>
+        <HeaderBar />
+        <Content className={styles.main}>
+          <Outlet />
+        </Content>
+        <FooterBar />
       </Layout>
-    </GlobalContext.Provider>
+    </Layout>
   )
 }
 

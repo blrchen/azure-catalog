@@ -1,9 +1,32 @@
 import React from 'react'
 
-import { observer } from '@/hooks'
+import { Card } from 'antd'
 
-const List = () => {
-  return <div>List</div>
-}
+import PagePanel from '@/components/PagePanel'
 
-export default observer(List)
+const About = () => (
+  <PagePanel title="AWS Geographies">
+    <Card bordered={false}>
+      <p>
+        Source code of this site can be found at
+        <a target="_blank" rel="noreferrer" href="https://github.com/blrchen/cloud-infrastructure">
+          {' '}
+          GitHub
+        </a>
+      </p>
+      <p>
+        If you find any bugs or have a feature request, please create an issue
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/blrchen/cloud-infrastructure/issues"
+        >
+          {' '}
+          here
+        </a>
+      </p>
+    </Card>
+  </PagePanel>
+)
+
+export default About

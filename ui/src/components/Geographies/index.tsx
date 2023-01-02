@@ -3,12 +3,14 @@ import React, { useEffect, useState } from 'react'
 import { List } from 'antd'
 import axios from 'axios'
 
-import { AWS_GEOGRAPHIES_FILE, AZURE_GEOGRAPHIES_FILE } from '../common/constants'
+import { AWS_GEOGRAPHIES_FILE, AZURE_GEOGRAPHIES_FILE } from '../../pages/constants'
 
-type Props = {
+interface GeographiesProps {
   filename: string
 }
-const Geographies: React.FC<Props> = ({ filename }) => {
+
+const Geographies = (props: GeographiesProps) => {
+  const { filename } = props
   const [dataSource, setDataSource] = useState<{ title: string; description: string }[]>([])
 
   useEffect(() => {

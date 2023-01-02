@@ -4,12 +4,12 @@ import { Card } from 'antd'
 
 import PagePanel from '@/components/PagePanel'
 import Regions from '@/components/Regions'
-import { AZURE_REGIONS_FILE } from '@/pages/constants'
+import { AWS_REGIONS_FILE } from '@/pages/constants'
 
 const AwsRegions = () => (
-  <PagePanel title="Azure Regions">
+  <PagePanel title="AWS Regions">
     <Card bordered={false}>
-      <Regions filename={AZURE_REGIONS_FILE} />;
+      <Regions filename={AWS_REGIONS_FILE} />;
     </Card>
   </PagePanel>
 )

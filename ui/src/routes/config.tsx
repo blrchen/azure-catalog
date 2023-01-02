@@ -7,10 +7,9 @@ import AppLayout from '@/layouts/AppLayout'
 import AzureGeographies from '@/pages/AzureGeographies'
 import AzureRegions from '@/pages/AzureRegions'
 
-const Home = lazy(() => import('@/pages/Home'))
 const About = lazy(() => import('@/pages/About'))
-const AWSRegions = lazy(() => import('@/pages/AWSRegions'))
-const AWSGeographies = lazy(() => import('@/pages/AWSGeographies'))
+const AwsRegions = lazy(() => import('@/pages/AwsRegions'))
+const AwsGeographies = lazy(() => import('@/pages/AwsGeographies'))
 
 const lazyLoad = (children: ReactNode): ReactNode => {
   return <Suspense fallback={<Loading />}>{children}</Suspense>
@@ -22,21 +21,16 @@ export const routers: RouteObject[] = [
     element: <AppLayout />,
     children: [
       {
-        index: true,
-        path: '/',
-        element: lazyLoad(<Home />)
-      },
-      {
         path: '/about',
         element: lazyLoad(<About />)
       },
       {
         path: '/aws/regions',
-        element: lazyLoad(<AWSRegions />)
+        element: lazyLoad(<AwsRegions />)
       },
       {
         path: '/aws/geographies',
-        element: lazyLoad(<AWSGeographies />)
+        element: lazyLoad(<AwsGeographies />)
       },
       {
         path: '/azure/regions',
@@ -48,7 +42,7 @@ export const routers: RouteObject[] = [
       },
       {
         path: '*',
-        element: lazyLoad(<AWSRegions />)
+        element: lazyLoad(<AwsRegions />)
       }
     ]
   }
