@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { List } from 'antd'
 import axios from 'axios'
 
-import { AWS_GEOGRAPHIES_FILE, AZURE_GEOGRAPHIES_FILE } from '../../pages/constants'
+import { AWS_GEOGRAPHIES_FILE, AZURE_GEOGRAPHIES_FILE } from '@/pages/constants'
 
 interface GeographiesProps {
   filename: string

@@ -13,7 +13,7 @@ const HeaderBar = () => {
         <div className={styles.logoBar}>
           <Link to="/">
             <img alt="logo" src="/logo192.png" />
-            <h1>Cloud Infrastructure</h1>
+            <h1>Cloud Catalog</h1>
           </Link>
         </div>
       </Header>

@@ -1,6 +1,6 @@
-# Cloud Infrastructure
+# Cloud Catalog
 
-In this repo you can find the latest Azure/AWS infrastructure information.
+In this repo you can find the infrastructure and offering data for the cloud platforms like AWS/Azure/GCP.
 
 ## Live Demo
 

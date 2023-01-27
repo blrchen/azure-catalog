@@ -5,7 +5,7 @@ import { Card } from 'antd'
 import PagePanel from '@/components/PagePanel'
 
 const About = () => (
-  <PagePanel title="AWS Geographies">
+  <PagePanel title="About">
     <Card bordered={false}>
       <p>
         Source code of this site can be found at
