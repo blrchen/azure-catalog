@@ -9,18 +9,14 @@ const About = () => (
     <Card bordered={false}>
       <p>
         Source code of this site can be found at
-        <a target="_blank" rel="noreferrer" href="https://github.com/blrchen/cloud-infrastructure">
+        <a target="_blank" rel="noreferrer" href="https://github.com/blrchen/cloud-catalog">
           {' '}
           GitHub
         </a>
       </p>
       <p>
         If you find any bugs or have a feature request, please create an issue
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://github.com/blrchen/cloud-infrastructure/issues"
-        >
+        <a target="_blank" rel="noreferrer" href="https://github.com/blrchen/cloud-catalog/issues">
           {' '}
           here
         </a>
