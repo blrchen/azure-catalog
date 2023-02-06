@@ -9,7 +9,7 @@ const About = () => (
     <Card bordered={false}>
       <p>
         Source code of this site can be found at
-        <a target="_blank" rel="noreferrer" href="https://github.com/blrchen/cloud-infrastructure">
+        <a target="_blank" rel="noreferrer" href="https://github.com/blrchen/cloud-catalog">
           {' '}
           GitHub
         </a>
@@ -19,7 +19,7 @@ const About = () => (
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://github.com/blrchen/cloud-infrastructure/issues"
+          href="https://github.com/blrchen/cloud-catalog/issues"
         >
           {' '}
           here
