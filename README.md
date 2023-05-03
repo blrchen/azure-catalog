@@ -1,10 +1,10 @@
 # Cloud Catalog
 
-In this repo you can find the infrastructure and offering data for the cloud platforms like AWS/Azure/GCP.
+This repository contains infrastructure catalog data for cloud platforms such as AWS, Azure and GCP.
 
 ## Live Demo
 
-<https://ashy-pebble-0fcf2e71e.1.azurestaticapps.net>
+<https://cloud-catalog.vercel.app>
 
 ## Catalog Data
 
@@ -22,3 +22,7 @@ In this repo you can find the infrastructure and offering data for the cloud pla
 | ----------- | ----------- |
 | [geographies.json](src/assets/aws/geographies.json) | AWS geographies |
 | [regions.json](src/assets/aws/regions.json) | AWS regions |
+
+## Contribution
+
+We welcome PRs of any size.
