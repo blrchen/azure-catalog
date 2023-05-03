@@ -226,7 +226,7 @@
         "regionName": "brazilsoutheast",
         "availabilityZoneCount": 0,
         "restricted": true,
-        "accessEnabled": true
+        "accessEnabled": false
       }
     ]
   },
@@ -304,19 +304,6 @@
         "accessEnabled": true
       },
       {
-        "displayName": "East US STG",
-        "geography": "US",
-        "latitude": "37.3719",
-        "longitude": "-79.8164",
-        "pairedRegion": "South Central US STG",
-        "physicalLocation": "Virginia",
-        "regionalDisplayName": "(US) East US STG",
-        "regionName": "eastusstg",
-        "availabilityZoneCount": 0,
-        "restricted": false,
-        "accessEnabled": true
-      },
-      {
         "displayName": "North Central US",
         "geography": "US",
         "latitude": "41.8819",
@@ -339,19 +326,6 @@
         "regionalDisplayName": "(US) South Central US",
         "regionName": "southcentralus",
         "availabilityZoneCount": 3,
-        "restricted": false,
-        "accessEnabled": true
-      },
-      {
-        "displayName": "South Central US STG",
-        "geography": "US",
-        "latitude": "29.4167",
-        "longitude": "-98.5",
-        "pairedRegion": "East US STG",
-        "physicalLocation": "Texas",
-        "regionalDisplayName": "(US) South Central US STG",
-        "regionName": "southcentralusstg",
-        "availabilityZoneCount": 0,
         "restricted": false,
         "accessEnabled": true
       },
@@ -502,6 +476,19 @@
         "availabilityZoneCount": 0,
         "restricted": true,
         "accessEnabled": false
+      },
+      {
+        "displayName": "Poland Central",
+        "geography": "Europe",
+        "latitude": "52.23334",
+        "longitude": "21.01666",
+        "pairedRegion": null,
+        "physicalLocation": "Warsaw",
+        "regionalDisplayName": "(Europe) Poland Central",
+        "regionName": "polandcentral",
+        "availabilityZoneCount": 3,
+        "restricted": false,
+        "accessEnabled": true
       },
       {
         "displayName": "Sweden Central",
