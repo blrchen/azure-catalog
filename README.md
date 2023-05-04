@@ -1,10 +1,10 @@
 # Cloud Catalog
 
-In this repo you can find the infrastructure and offering data for the cloud platforms like AWS/Azure/GCP.
+This repository contains infrastructure catalog data for cloud platforms such as AWS, Azure and GCP.
 
 ## Live Demo
 
-<https://ashy-pebble-0fcf2e71e.1.azurestaticapps.net>
+<https://cloud-catalog.vercel.app>
 
 ## Catalog Data
 
@@ -12,13 +12,17 @@ In this repo you can find the infrastructure and offering data for the cloud pla
 
 | File | Description |
 | ----------- | ----------- |
-| [geographies.json](./ui/public/data/azure/geographies.json) | Azure geographies |
-| [regions.json](./ui/public/data/azure/regions.json) | Azure regions and availability zones  |
-| [vm-skus.json](./ui/public/data/azure/vm-skus.json) | Azure virtual machine sku regional availability |
+| [geographies.json](src/assets/azure/geographies.json) | Azure geographies |
+| [regions.json](src/assets/azure/regions.json) | Azure regions and availability zones  |
+| [vm-skus.json](src/assets/azure/vm-skus.json) | Azure virtual machine sku regional availability |
 
 ### AWS
 
 | File | Description |
 | ----------- | ----------- |
-| [geographies.json](./ui/public/data/aws/geographies.json) | AWS geographies |
-| [regions.json](./ui/public/data/aws/regions.json) | AWS regions |
+| [geographies.json](src/assets/aws/geographies.json) | AWS geographies |
+| [regions.json](src/assets/aws/regions.json) | AWS regions |
+
+## Contribution
+
+We welcome PRs of any size.
