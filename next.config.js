@@ -1,26 +1,22 @@
-/** @type {import('next').NextConfig} */
-const withLess = require('next-with-less')
-const path = require('node:path')
+const path = require('path')
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',
+  sassOptions: {
+    // includePaths: [path.join(__dirname, 'styles')]
+  },
   reactStrictMode: false,
-  swcMinify: true,
-  transpilePackages: ['antd-mobile'],
-  webpack(config, options) {
-    // disable css-module in Next.js
-    config.module.rules.forEach((rule) => {
-      const { oneOf } = rule
-      if (oneOf) {
-        oneOf.forEach((one) => {
-          if (!`${one.issuer?.and}`.includes('_app')) return
-          one.issuer.and = [path.resolve(__dirname)]
-        })
-      }
-    })
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/azure/regions',
 
-    return config
+        permanent: true
+      }
+    ]
   }
 }
 
-module.exports = withLess(nextConfig)
+module.exports = nextConfig
