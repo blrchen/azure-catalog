@@ -1,4 +1,5 @@
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import { Inter } from 'next/font/google'
 import QueryClientProvider from '@/providers/QueryClientProvider'
 import ThemesProvider from '@/providers/ThemesProvider'
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </ThemesProvider>
         </QueryClientProvider>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
