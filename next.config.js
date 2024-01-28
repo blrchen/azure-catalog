@@ -1,4 +1,4 @@
-const path = require('path')
+require('path')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -11,11 +11,15 @@ const nextConfig = {
     return [
       {
         source: '/',
-        destination: '/azure/regions',
-
+        destination: '/regions',
         permanent: true
       }
     ]
+  },
+  logging: {
+    fetches: {
+      fullUrl: true
+    }
   }
 }
 

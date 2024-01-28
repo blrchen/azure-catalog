@@ -1,21 +1,15 @@
 'use client'
 
-import React, { useCallback, useState } from 'react'
-import { Text, Flex, Grid, Checkbox, Popover, ScrollArea } from '@radix-ui/themes'
+import React, { useCallback, useEffect, useState } from 'react'
+import { Checkbox, Flex, Grid, Popover, ScrollArea, Separator, Text } from '@radix-ui/themes'
 import { MultipleSelectProps } from './interface'
 
 export const MultipleSelect = ({
-  style,
-  className,
   children,
-  disabled = false,
-  placeholder = 'Please select date',
-  editable = true,
   size,
   popperContent,
   data,
   columns = '1',
-  onSelect,
   onChange,
   onVisibleChange,
   ...rest
@@ -53,10 +47,42 @@ export const MultipleSelect = ({
     })
   }
 
+  const onCheckedAllChange = (checked: boolean | 'indeterminate') => {
+    console.log(checked)
+    let value: string[] = []
+    if (checked) {
+      value = data?.map((item) => item.value) as string[]
+    }
+    setValue(value)
+    onChange?.(value)
+  }
+
+  useEffect(() => {
+    setValue(rest.value)
+  }, [rest.value])
+
   return (
     <Popover.Root open={mergedPopupVisible} onOpenChange={setOpen}>
-      <Popover.Trigger placeholder={placeholder}>{children}</Popover.Trigger>
+      <Popover.Trigger>{children}</Popover.Trigger>
       <Popover.Content className="min-w-[280px] p-0" {...popperContent}>
+        <Text as="label" size="2" className="p-3">
+          <Flex gap="2">
+            <Checkbox
+              variant="surface"
+              size={size}
+              checked={
+                (value?.length || 0) === 0
+                  ? false
+                  : value?.length === data?.length
+                    ? true
+                    : 'indeterminate'
+              }
+              onCheckedChange={onCheckedAllChange}
+            />
+            All
+          </Flex>
+        </Text>
+        <Separator orientation="horizontal" size="4" />
         <ScrollArea type="auto" className="max-h-[430px]">
           <Grid columns={columns} gap="3" width="auto" p="3">
             {data?.map((item) => (

@@ -434,13 +434,67 @@ body {
 }
 
 .navbar-collapse {
-  @apply max-md:absolute  max-md:top-14 max-md:gap-0 max-md:left-0 max-md:right-0 max-md:px-1 max-md:flex-col max-md:items-start max-md:backdrop-blur-md max-md:bg-white/20 max-md:shadow-sm max-md:overflow-hidden;
-  height: 0px;
+  @apply max-md:absolute  max-md:top-14 max-md:gap-0 max-md:left-0 max-md:right-0 max-md:px-1 max-md:flex-col max-md:items-start max-md:backdrop-blur-md max-md:bg-[--color-page-background] max-md:shadow-sm max-md:overflow-hidden;
+  height: 0;
   transition: 0.5s;
   > a {
-    @apply py-2 w-full;
+    @apply py-2;
   }
   &.show {
-    height: 168px;
+    @apply max-md:h-[168px];
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(calc(100% + 25px));
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(var(--radix-toast-swipe-end-x));
+  }
+  to {
+    transform: translateX(calc(100% + 25px));
+  }
+}
+
+@keyframes slideUp {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
   }
 }

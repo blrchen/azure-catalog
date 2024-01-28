@@ -1,19 +1,17 @@
 import { Analytics } from '@vercel/analytics/react'
-import { SpeedInsights } from '@vercel/speed-insights/next'
 import { Inter } from 'next/font/google'
+import { Header } from '@/components/Header'
 import QueryClientProvider from '@/providers/QueryClientProvider'
 import ThemesProvider from '@/providers/ThemesProvider'
-import { Header } from '@/components/Header'
-
 import '@/styles/globals.scss'
 import '@/styles/theme-config.css'
 
 export const metadata = {
   title: {
-    default: 'Cloud Catalog',
-    template: `%s - Cloud Catalog`
+    default: 'Azure Catalog',
+    template: `%s - Azure Catalog`
   },
-  description: 'Cloud Catalog',
+  description: 'Azure Catalog',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon-16x16.png',
@@ -34,7 +32,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </ThemesProvider>
         </QueryClientProvider>
         <Analytics />
-        <SpeedInsights />
       </body>
     </html>
   )
